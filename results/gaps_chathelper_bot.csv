@@ -1,0 +1,20 @@
+requirement_id,area,title,severity,coverage,framework,recommendation
+EU-13.1,transparency,Transparency obligations,high,0.0,eu_ai_act,No documentation found for transparency. Create a dedicated section addressing Transparency obligations.
+NIST-GV.1,govern,AI governance structure,high,0.0,nist_rmf,No documentation found for govern. Create a dedicated section addressing AI governance structure.
+NIST-GV.2,govern,Accountability structure,high,0.0,nist_rmf,No documentation found for govern. Create a dedicated section addressing Accountability structure.
+NIST-MP.1,map,Context establishment,high,0.0,nist_rmf,No documentation found for map. Create a dedicated section addressing Context establishment.
+NIST-MP.2,map,Risk categorization,high,0.0,nist_rmf,No documentation found for map. Create a dedicated section addressing Risk categorization.
+NIST-MS.1,measure,Appropriate metrics,high,0.0,nist_rmf,No documentation found for measure. Create a dedicated section addressing Appropriate metrics.
+NIST-MG.1,manage,Risk response,high,0.0,nist_rmf,No documentation found for manage. Create a dedicated section addressing Risk response.
+BP-MC.2,model_card,Intended use,high,0.0,best_practices,No documentation found for model_card. Create a dedicated section addressing Intended use.
+BP-MC.3,model_card,Factors and metrics,high,0.0,best_practices,No documentation found for model_card. Create a dedicated section addressing Factors and metrics.
+BP-MC.4,model_card,Evaluation results,high,0.0,best_practices,No documentation found for model_card. Create a dedicated section addressing Evaluation results.
+BP-MC.6,model_card,Limitations and caveats,high,0.0,best_practices,No documentation found for model_card. Create a dedicated section addressing Limitations and caveats.
+BP-MC.1,model_card,Model details,high,0.011,best_practices,No documentation found for model_card. Create a dedicated section addressing Model details.
+EU-13.3,transparency,Performance disclosure,medium,0.0,eu_ai_act,No documentation found for transparency. Create a dedicated section addressing Performance disclosure.
+NIST-GV.3,govern,Workforce diversity,medium,0.0,nist_rmf,No documentation found for govern. Create a dedicated section addressing Workforce diversity.
+NIST-MS.3,measure,Explainability evaluation,medium,0.0,nist_rmf,No documentation found for measure. Create a dedicated section addressing Explainability evaluation.
+NIST-MG.4,manage,Risk communication,medium,0.0,nist_rmf,No documentation found for manage. Create a dedicated section addressing Risk communication.
+BP-MC.5,model_card,Ethical considerations,medium,0.0,best_practices,No documentation found for model_card. Create a dedicated section addressing Ethical considerations.
+BP-DS.4,datasheet,Preprocessing and labeling,medium,0.0,best_practices,No documentation found for datasheet. Create a dedicated section addressing Preprocessing and labeling.
+EU-50.1,ai_interaction_disclosure,AI interaction disclosure,medium,0.08,eu_ai_act,No documentation found for ai_interaction_disclosure. Create a dedicated section addressing AI interaction disclosure.

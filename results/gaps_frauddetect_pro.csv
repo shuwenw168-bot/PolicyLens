@@ -1,0 +1,51 @@
+requirement_id,area,title,severity,coverage,framework,recommendation
+EU-9.2,risk_management,Risk identification and analysis,critical,0.028,eu_ai_act,No documentation found for risk_management. Create a dedicated section addressing Risk identification and analysis.
+EU-11.1,documentation,Technical documentation,critical,0.25,eu_ai_act,Minimal coverage of documentation. Expand documentation with specific evidence and metrics.
+EU-72.2,post_deployment,Incident reporting,high,0.0,eu_ai_act,No documentation found for post_deployment. Create a dedicated section addressing Incident reporting.
+NIST-GV.1,govern,AI governance structure,high,0.002,nist_rmf,No documentation found for govern. Create a dedicated section addressing AI governance structure.
+EU-9.3,risk_management,Risk mitigation measures,critical,0.252,eu_ai_act,Minimal coverage of risk_management. Expand documentation with specific evidence and metrics.
+EU-13.1,transparency,Transparency obligations,high,0.006,eu_ai_act,No documentation found for transparency. Create a dedicated section addressing Transparency obligations.
+BP-DS.1,datasheet,Dataset motivation,high,0.007,best_practices,No documentation found for datasheet. Create a dedicated section addressing Dataset motivation.
+BP-DS.2,datasheet,Dataset composition,high,0.032,best_practices,No documentation found for datasheet. Create a dedicated section addressing Dataset composition.
+EU-9.1,risk_management,Risk management system,critical,0.294,eu_ai_act,Minimal coverage of risk_management. Expand documentation with specific evidence and metrics.
+NIST-MS.5,measure,Security and resilience,high,0.061,nist_rmf,No documentation found for measure. Create a dedicated section addressing Security and resilience.
+NIST-MP.4,map,Impact on individuals,high,0.087,nist_rmf,No documentation found for map. Create a dedicated section addressing Impact on individuals.
+NIST-MP.1,map,Context establishment,high,0.09,nist_rmf,No documentation found for map. Create a dedicated section addressing Context establishment.
+EU-14.1,human_oversight,Human oversight design,critical,0.328,eu_ai_act,Minimal coverage of human_oversight. Expand documentation with specific evidence and metrics.
+NIST-GV.2,govern,Accountability structure,high,0.105,nist_rmf,Minimal coverage of govern. Expand documentation with specific evidence and metrics.
+EU-10.1,data_governance,Training data governance,critical,0.336,eu_ai_act,Minimal coverage of data_governance. Expand documentation with specific evidence and metrics.
+EU-10.4,data_governance,Personal data processing,high,0.122,eu_ai_act,Minimal coverage of data_governance. Expand documentation with specific evidence and metrics.
+EU-15.3,accuracy_robustness,Cybersecurity,high,0.131,eu_ai_act,Minimal coverage of accuracy_robustness. Expand documentation with specific evidence and metrics.
+EU-15.2,accuracy_robustness,Robustness,high,0.143,eu_ai_act,Minimal coverage of accuracy_robustness. Expand documentation with specific evidence and metrics.
+EU-10.2,data_governance,Data representativeness,high,0.147,eu_ai_act,Minimal coverage of data_governance. Expand documentation with specific evidence and metrics.
+NIST-MP.2,map,Risk categorization,high,0.163,nist_rmf,Minimal coverage of map. Expand documentation with specific evidence and metrics.
+EU-14.2,human_oversight,Ability to override,high,0.166,eu_ai_act,Minimal coverage of human_oversight. Expand documentation with specific evidence and metrics.
+NIST-MS.4,measure,Safety evaluation,high,0.178,nist_rmf,Minimal coverage of measure. Expand documentation with specific evidence and metrics.
+NIST-MS.1,measure,Appropriate metrics,high,0.188,nist_rmf,Minimal coverage of measure. Expand documentation with specific evidence and metrics.
+EU-9.4,risk_management,Testing for risk management,high,0.197,eu_ai_act,Minimal coverage of risk_management. Expand documentation with specific evidence and metrics.
+EU-13.2,transparency,Instructions for use,high,0.2,eu_ai_act,Minimal coverage of transparency. Expand documentation with specific evidence and metrics.
+EU-12.1,record_keeping,Automatic logging,high,0.203,eu_ai_act,Minimal coverage of record_keeping. Expand documentation with specific evidence and metrics.
+NIST-GV.4,govern,Organizational risk tolerance,high,0.217,nist_rmf,Minimal coverage of govern. Expand documentation with specific evidence and metrics.
+NIST-MS.2,measure,Fairness evaluation,high,0.224,nist_rmf,Minimal coverage of measure. Expand documentation with specific evidence and metrics.
+EU-A4.2,documentation,Validation and testing procedures,high,0.227,eu_ai_act,Minimal coverage of documentation. Expand documentation with specific evidence and metrics.
+BP-MC.3,model_card,Factors and metrics,high,0.258,best_practices,Minimal coverage of model_card. Expand documentation with specific evidence and metrics.
+NIST-MG.1,manage,Risk response,high,0.263,nist_rmf,Minimal coverage of manage. Expand documentation with specific evidence and metrics.
+EU-10.3,data_governance,Bias examination,high,0.284,eu_ai_act,Minimal coverage of data_governance. Expand documentation with specific evidence and metrics.
+BP-MC.6,model_card,Limitations and caveats,high,0.288,best_practices,Minimal coverage of model_card. Expand documentation with specific evidence and metrics.
+EU-A4.1,documentation,Training methodology,high,0.296,eu_ai_act,Minimal coverage of documentation. Expand documentation with specific evidence and metrics.
+BP-MC.2,model_card,Intended use,high,0.313,best_practices,Minimal coverage of model_card. Expand documentation with specific evidence and metrics.
+EU-11.2,documentation,System description,high,0.324,eu_ai_act,Minimal coverage of documentation. Expand documentation with specific evidence and metrics.
+NIST-GV.3,govern,Workforce diversity,medium,0.0,nist_rmf,No documentation found for govern. Create a dedicated section addressing Workforce diversity.
+NIST-MG.3,manage,Incident response,medium,0.0,nist_rmf,No documentation found for manage. Create a dedicated section addressing Incident response.
+EU-72.1,post_deployment,Post-market monitoring system,high,0.337,eu_ai_act,Minimal coverage of post_deployment. Expand documentation with specific evidence and metrics.
+NIST-MG.4,manage,Risk communication,medium,0.009,nist_rmf,No documentation found for manage. Create a dedicated section addressing Risk communication.
+BP-DS.3,datasheet,Collection process,medium,0.01,best_practices,No documentation found for datasheet. Create a dedicated section addressing Collection process.
+BP-DS.4,datasheet,Preprocessing and labeling,medium,0.011,best_practices,No documentation found for datasheet. Create a dedicated section addressing Preprocessing and labeling.
+NIST-MG.2,manage,Continuous monitoring,high,0.344,nist_rmf,Minimal coverage of manage. Expand documentation with specific evidence and metrics.
+EU-50.1,ai_interaction_disclosure,AI interaction disclosure,medium,0.085,eu_ai_act,No documentation found for ai_interaction_disclosure. Create a dedicated section addressing AI interaction disclosure.
+NIST-GV.5,govern,Third-party risk,medium,0.087,nist_rmf,No documentation found for govern. Create a dedicated section addressing Third-party risk.
+NIST-MP.3,map,Benefits and costs,medium,0.087,nist_rmf,No documentation found for map. Create a dedicated section addressing Benefits and costs.
+NIST-MS.3,measure,Explainability evaluation,medium,0.091,nist_rmf,No documentation found for measure. Create a dedicated section addressing Explainability evaluation.
+BP-MC.4,model_card,Evaluation results,high,0.418,best_practices,Partial coverage of model_card. Add missing details to strengthen compliance.
+BP-MC.5,model_card,Ethical considerations,medium,0.175,best_practices,Minimal coverage of model_card. Expand documentation with specific evidence and metrics.
+EU-13.3,transparency,Performance disclosure,medium,0.358,eu_ai_act,Minimal coverage of transparency. Expand documentation with specific evidence and metrics.

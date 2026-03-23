@@ -1,0 +1,19 @@
+requirement_id,area,title,severity,coverage,framework,recommendation
+NIST-GV.1,govern,AI governance structure,high,0.0,nist_rmf,No documentation found for govern. Create a dedicated section addressing AI governance structure.
+NIST-GV.2,govern,Accountability structure,high,0.1,nist_rmf,No documentation found for govern. Create a dedicated section addressing Accountability structure.
+EU-13.1,transparency,Transparency obligations,high,0.189,eu_ai_act,Minimal coverage of transparency. Expand documentation with specific evidence and metrics.
+BP-MC.4,model_card,Evaluation results,high,0.202,best_practices,Minimal coverage of model_card. Expand documentation with specific evidence and metrics.
+NIST-MP.1,map,Context establishment,high,0.23,nist_rmf,Minimal coverage of map. Expand documentation with specific evidence and metrics.
+NIST-MG.1,manage,Risk response,high,0.261,nist_rmf,Minimal coverage of manage. Expand documentation with specific evidence and metrics.
+NIST-MP.2,map,Risk categorization,high,0.29,nist_rmf,Minimal coverage of map. Expand documentation with specific evidence and metrics.
+NIST-MS.1,measure,Appropriate metrics,high,0.29,nist_rmf,Minimal coverage of measure. Expand documentation with specific evidence and metrics.
+BP-MC.2,model_card,Intended use,high,0.301,best_practices,Minimal coverage of model_card. Expand documentation with specific evidence and metrics.
+NIST-GV.3,govern,Workforce diversity,medium,0.0,nist_rmf,No documentation found for govern. Create a dedicated section addressing Workforce diversity.
+NIST-MS.3,measure,Explainability evaluation,medium,0.003,nist_rmf,No documentation found for measure. Create a dedicated section addressing Explainability evaluation.
+BP-MC.6,model_card,Limitations and caveats,high,0.34,best_practices,Minimal coverage of model_card. Expand documentation with specific evidence and metrics.
+BP-MC.3,model_card,Factors and metrics,high,0.345,best_practices,Minimal coverage of model_card. Expand documentation with specific evidence and metrics.
+NIST-MG.4,manage,Risk communication,medium,0.087,nist_rmf,No documentation found for manage. Create a dedicated section addressing Risk communication.
+EU-50.1,ai_interaction_disclosure,AI interaction disclosure,medium,0.165,eu_ai_act,Minimal coverage of ai_interaction_disclosure. Expand documentation with specific evidence and metrics.
+EU-13.3,transparency,Performance disclosure,medium,0.251,eu_ai_act,Minimal coverage of transparency. Expand documentation with specific evidence and metrics.
+BP-DS.4,datasheet,Preprocessing and labeling,medium,0.289,best_practices,Minimal coverage of datasheet. Expand documentation with specific evidence and metrics.
+BP-MC.5,model_card,Ethical considerations,medium,0.311,best_practices,Minimal coverage of model_card. Expand documentation with specific evidence and metrics.

@@ -1,0 +1,107 @@
+requirement_id,framework,area,title,severity,keyword_score,evidence_score,semantic_score,coverage_score,coverage_level,best_matching_section
+EU-9.1,eu_ai_act,risk_management,Risk management system,critical,0.425,0.333,0.03,0.294,WEAK,"Risk Management
+- Monthly model retraining on latest transaction data
+- Human review required for al"
+EU-9.2,eu_ai_act,risk_management,Risk identification and analysis,critical,0.06,0.0,0.016,0.028,MISSING,None found
+EU-9.3,eu_ai_act,risk_management,Risk mitigation measures,critical,0.4,0.25,0.018,0.252,WEAK,"Intended Use
+- **Primary use:** Real-time fraud detection for credit card transactions
+- **Intended "
+EU-9.4,eu_ai_act,risk_management,Testing for risk management,high,0.2,0.333,0.0,0.197,WEAK,"Risk Management
+- Monthly model retraining on latest transaction data
+- Human review required for al"
+EU-10.1,eu_ai_act,data_governance,Training data governance,critical,0.575,0.25,0.075,0.336,WEAK,"Training Data
+- 12M transactions from 2020-2024, 2.3% positive fraud rate
+- Sourced from US and Euro"
+EU-10.2,eu_ai_act,data_governance,Data representativeness,high,0.06,0.333,0.024,0.147,WEAK,None found
+EU-10.3,eu_ai_act,data_governance,Bias examination,high,0.4,0.333,0.028,0.284,WEAK,"Fairness Assessment
+- Demographic parity evaluated across cardholder income brackets
+- Equalized odd"
+EU-10.4,eu_ai_act,data_governance,Personal data processing,high,0.12,0.167,0.062,0.122,WEAK,None found
+EU-11.1,eu_ai_act,documentation,Technical documentation,critical,0.333,0.333,0.0,0.25,WEAK,# FraudDetect Pro - Model Card
+EU-11.2,eu_ai_act,documentation,System description,high,0.575,0.25,0.027,0.324,WEAK,"Model Details
+- **Developer:** FinanceAI Corp, Version 3.2, Released 2025-01
+- **Type:** Gradient Bo"
+EU-12.1,eu_ai_act,record_keeping,Automatic logging,high,0.2,0.333,0.027,0.203,WEAK,"Risk Management
+- Monthly model retraining on latest transaction data
+- Human review required for al"
+EU-13.1,eu_ai_act,transparency,Transparency obligations,high,0.0,0.0,0.023,0.006,MISSING,None found
+EU-13.2,eu_ai_act,transparency,Instructions for use,high,0.325,0.167,0.045,0.2,WEAK,"Limitations
+- Performance degrades on transaction types not seen in training data
+- Not validated fo"
+EU-13.3,eu_ai_act,transparency,Performance disclosure,medium,0.575,0.333,0.044,0.358,WEAK,"Limitations
+- Performance degrades on transaction types not seen in training data
+- Not validated fo"
+EU-14.1,eu_ai_act,human_oversight,Human oversight design,critical,0.5,0.333,0.045,0.328,WEAK,"Risk Management
+- Monthly model retraining on latest transaction data
+- Human review required for al"
+EU-14.2,eu_ai_act,human_oversight,Ability to override,high,0.175,0.25,0.032,0.166,WEAK,None found
+EU-15.1,eu_ai_act,accuracy_robustness,Accuracy levels,high,0.8,0.5,0.034,0.503,PARTIAL,"Evaluation Results
+- Precision: 0.94, Recall: 0.87, F1: 0.90, AUC-ROC: 0.96
+- Performance by demogra"
+EU-15.2,eu_ai_act,accuracy_robustness,Robustness,high,0.06,0.333,0.009,0.143,WEAK,None found
+EU-15.3,eu_ai_act,accuracy_robustness,Cybersecurity,high,0.0,0.333,0.056,0.131,WEAK,None found
+EU-72.1,eu_ai_act,post_deployment,Post-market monitoring system,high,0.4,0.5,0.009,0.337,WEAK,"Risk Management
+- Monthly model retraining on latest transaction data
+- Human review required for al"
+EU-72.2,eu_ai_act,post_deployment,Incident reporting,high,0.0,0.0,0.0,0.0,MISSING,None found
+EU-50.1,eu_ai_act,ai_interaction_disclosure,AI interaction disclosure,medium,0.2,0.0,0.021,0.085,MISSING,"Risk Management
+- Monthly model retraining on latest transaction data
+- Human review required for al"
+EU-A4.1,eu_ai_act,documentation,Training methodology,high,0.4,0.333,0.076,0.296,WEAK,"Model Details
+- **Developer:** FinanceAI Corp, Version 3.2, Released 2025-01
+- **Type:** Gradient Bo"
+EU-A4.2,eu_ai_act,documentation,Validation and testing procedures,high,0.26,0.333,0.025,0.227,WEAK,"Evaluation Results
+- Precision: 0.94, Recall: 0.87, F1: 0.90, AUC-ROC: 0.96
+- Performance by demogra"
+NIST-GV.1,nist_rmf,govern,AI governance structure,high,0.0,0.0,0.01,0.002,MISSING,None found
+NIST-GV.2,nist_rmf,govern,Accountability structure,high,0.25,0.0,0.021,0.105,WEAK,"Human Oversight
+- All automated fraud blocks can be overridden by Level 2 analysts
+- Customer disput"
+NIST-GV.3,nist_rmf,govern,Workforce diversity,medium,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-GV.4,nist_rmf,govern,Organizational risk tolerance,high,0.533,0.0,0.013,0.217,WEAK,"Risk Management
+- Monthly model retraining on latest transaction data
+- Human review required for al"
+NIST-GV.5,nist_rmf,govern,Third-party risk,medium,0.0,0.25,0.0,0.087,MISSING,None found
+NIST-MP.1,nist_rmf,map,Context establishment,high,0.2,0.0,0.04,0.09,MISSING,"Intended Use
+- **Primary use:** Real-time fraud detection for credit card transactions
+- **Intended "
+NIST-MP.2,nist_rmf,map,Risk categorization,high,0.175,0.25,0.021,0.163,WEAK,None found
+NIST-MP.3,nist_rmf,map,Benefits and costs,medium,0.0,0.25,0.0,0.087,MISSING,None found
+NIST-MP.4,nist_rmf,map,Impact on individuals,high,0.0,0.25,0.0,0.087,MISSING,None found
+NIST-MS.1,nist_rmf,measure,Appropriate metrics,high,0.25,0.25,0.0,0.188,WEAK,"Evaluation Results
+- Precision: 0.94, Recall: 0.87, F1: 0.90, AUC-ROC: 0.96
+- Performance by demogra"
+NIST-MS.2,nist_rmf,measure,Fairness evaluation,high,0.4,0.167,0.022,0.224,WEAK,"Fairness Assessment
+- Demographic parity evaluated across cardholder income brackets
+- Equalized odd"
+NIST-MS.3,nist_rmf,measure,Explainability evaluation,medium,0.0,0.25,0.013,0.091,MISSING,None found
+NIST-MS.4,nist_rmf,measure,Safety evaluation,high,0.0,0.5,0.012,0.178,WEAK,None found
+NIST-MS.5,nist_rmf,measure,Security and resilience,high,0.0,0.167,0.012,0.061,MISSING,None found
+NIST-MG.1,nist_rmf,manage,Risk response,high,0.433,0.25,0.009,0.263,WEAK,"Risk Management
+- Monthly model retraining on latest transaction data
+- Human review required for al"
+NIST-MG.2,nist_rmf,manage,Continuous monitoring,high,0.4,0.5,0.037,0.344,WEAK,"Risk Management
+- Monthly model retraining on latest transaction data
+- Human review required for al"
+NIST-MG.3,nist_rmf,manage,Incident response,medium,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-MG.4,nist_rmf,manage,Risk communication,medium,0.0,0.0,0.035,0.009,MISSING,None found
+BP-MC.1,best_practices,model_card,Model details,high,1.0,0.75,0.091,0.685,PARTIAL,"Model Details
+- **Developer:** FinanceAI Corp, Version 3.2, Released 2025-01
+- **Type:** Gradient Bo"
+BP-MC.2,best_practices,model_card,Intended use,high,0.5,0.25,0.104,0.313,WEAK,"Intended Use
+- **Primary use:** Real-time fraud detection for credit card transactions
+- **Intended "
+BP-MC.3,best_practices,model_card,Factors and metrics,high,0.4,0.25,0.043,0.258,WEAK,"Evaluation Results
+- Precision: 0.94, Recall: 0.87, F1: 0.90, AUC-ROC: 0.96
+- Performance by demogra"
+BP-MC.4,best_practices,model_card,Evaluation results,high,0.6,0.5,0.012,0.418,PARTIAL,"Evaluation Results
+- Precision: 0.94, Recall: 0.87, F1: 0.90, AUC-ROC: 0.96
+- Performance by demogra"
+BP-MC.5,best_practices,model_card,Ethical considerations,medium,0.0,0.5,0.0,0.175,WEAK,None found
+BP-MC.6,best_practices,model_card,Limitations and caveats,high,0.26,0.5,0.037,0.288,WEAK,"Training Data
+- 12M transactions from 2020-2024, 2.3% positive fraud rate
+- Sourced from US and Euro"
+BP-DS.1,best_practices,datasheet,Dataset motivation,high,0.0,0.0,0.029,0.007,MISSING,None found
+BP-DS.2,best_practices,datasheet,Dataset composition,high,0.06,0.0,0.032,0.032,MISSING,None found
+BP-DS.3,best_practices,datasheet,Collection process,medium,0.0,0.0,0.039,0.01,MISSING,None found
+BP-DS.4,best_practices,datasheet,Preprocessing and labeling,medium,0.0,0.0,0.044,0.011,MISSING,None found

@@ -1,0 +1,53 @@
+requirement_id,area,title,severity,n_systems,n_gaps,avg_coverage,min_coverage,gap_rate
+BP-DS.1,datasheet,Dataset motivation,high,4,4,0.0045,0.0,1.0
+BP-DS.2,datasheet,Dataset composition,high,4,4,0.075,0.032,1.0
+EU-9.1,risk_management,Risk management system,critical,4,4,0.07625,0.0,1.0
+EU-9.2,risk_management,Risk identification and analysis,critical,4,4,0.06,0.028,1.0
+EU-9.3,risk_management,Risk mitigation measures,critical,4,4,0.063,0.0,1.0
+EU-9.4,risk_management,Testing for risk management,high,4,4,0.094,0.058,1.0
+EU-A4.1,documentation,Training methodology,high,4,4,0.1805,0.015,1.0
+EU-A4.2,documentation,Validation and testing procedures,high,4,4,0.138,0.005,1.0
+NIST-GV.1,govern,AI governance structure,high,6,6,0.0025,0.0,1.0
+NIST-GV.2,govern,Accountability structure,high,6,6,0.036333333333333336,0.0,1.0
+NIST-GV.3,govern,Workforce diversity,medium,6,6,0.0,0.0,1.0
+NIST-GV.4,govern,Organizational risk tolerance,high,4,4,0.05425,0.0,1.0
+NIST-GV.5,govern,Third-party risk,medium,4,4,0.0255,0.0,1.0
+NIST-MG.1,manage,Risk response,high,6,6,0.09033333333333333,0.0,1.0
+NIST-MG.2,manage,Continuous monitoring,high,4,4,0.13324999999999998,0.058,1.0
+NIST-MG.3,manage,Incident response,medium,4,4,0.0045,0.0,1.0
+NIST-MG.4,manage,Risk communication,medium,6,6,0.01833333333333333,0.0,1.0
+NIST-MP.1,map,Context establishment,high,6,6,0.08716666666666667,0.0,1.0
+NIST-MP.2,map,Risk categorization,high,6,6,0.1115,0.0,1.0
+NIST-MP.3,map,Benefits and costs,medium,4,4,0.09625,0.0,1.0
+NIST-MP.4,map,Impact on individuals,high,4,4,0.10725,0.0,1.0
+NIST-MS.1,measure,Appropriate metrics,high,6,6,0.11316666666666668,0.0,1.0
+NIST-MS.2,measure,Fairness evaluation,high,4,4,0.1365,0.014,1.0
+NIST-MS.3,measure,Explainability evaluation,medium,6,6,0.018333333333333333,0.0,1.0
+NIST-MS.4,measure,Safety evaluation,high,4,4,0.09625,0.015,1.0
+EU-72.2,post_deployment,Incident reporting,high,4,4,0.0,0.0,1.0
+EU-72.1,post_deployment,Post-market monitoring system,high,4,4,0.13075,0.058,1.0
+EU-50.1,ai_interaction_disclosure,AI interaction disclosure,medium,6,6,0.07333333333333333,0.005,1.0
+EU-15.3,accuracy_robustness,Cybersecurity,high,4,4,0.0685,0.007,1.0
+BP-DS.3,datasheet,Collection process,medium,4,4,0.009000000000000001,0.005,1.0
+BP-DS.4,datasheet,Preprocessing and labeling,medium,6,6,0.05483333333333334,0.0,1.0
+BP-MC.2,model_card,Intended use,high,6,6,0.15433333333333332,0.0,1.0
+BP-MC.3,model_card,Factors and metrics,high,6,6,0.17200000000000001,0.0,1.0
+BP-MC.4,model_card,Evaluation results,high,6,6,0.18066666666666667,0.0,1.0
+BP-MC.5,model_card,Ethical considerations,medium,6,6,0.16183333333333333,0.0,1.0
+BP-MC.6,model_card,Limitations and caveats,high,6,6,0.15266666666666664,0.0,1.0
+EU-10.1,data_governance,Training data governance,critical,4,4,0.20025,0.13,1.0
+EU-10.2,data_governance,Data representativeness,high,4,4,0.10775,0.087,1.0
+EU-10.3,data_governance,Bias examination,high,4,4,0.194,0.064,1.0
+EU-10.4,data_governance,Personal data processing,high,4,4,0.08975,0.054,1.0
+EU-11.1,documentation,Technical documentation,critical,4,4,0.2045,0.098,1.0
+EU-11.2,documentation,System description,high,4,4,0.21875,0.0,1.0
+EU-12.1,record_keeping,Automatic logging,high,4,4,0.094,0.0,1.0
+EU-13.1,transparency,Transparency obligations,high,6,6,0.034,0.0,1.0
+EU-13.2,transparency,Instructions for use,high,4,4,0.093,0.0,1.0
+EU-13.3,transparency,Performance disclosure,medium,6,6,0.2303333333333333,0.0,1.0
+EU-14.1,human_oversight,Human oversight design,critical,4,4,0.162,0.03,1.0
+EU-14.2,human_oversight,Ability to override,high,4,4,0.10550000000000001,0.03,1.0
+EU-15.2,accuracy_robustness,Robustness,high,4,4,0.071,0.011,1.0
+NIST-MS.5,measure,Security and resilience,high,4,4,0.019,0.0,1.0
+EU-15.1,accuracy_robustness,Accuracy levels,high,4,3,0.28400000000000003,0.138,0.75
+BP-MC.1,model_card,Model details,high,6,3,0.36683333333333334,0.011,0.5

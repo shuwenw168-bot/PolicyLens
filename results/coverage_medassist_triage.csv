@@ -1,0 +1,95 @@
+requirement_id,framework,area,title,severity,keyword_score,evidence_score,semantic_score,coverage_score,coverage_level,best_matching_section
+EU-9.1,eu_ai_act,risk_management,Risk management system,critical,0.0,0.0,0.0,0.0,MISSING,None found
+EU-9.2,eu_ai_act,risk_management,Risk identification and analysis,critical,0.2,0.0,0.024,0.086,MISSING,"Model Details
+- **Developer:** HealthTech Solutions, v2.1
+- **Type:** Multi-class classifier for eme"
+EU-9.3,eu_ai_act,risk_management,Risk mitigation measures,critical,0.0,0.0,0.0,0.0,MISSING,None found
+EU-9.4,eu_ai_act,risk_management,Testing for risk management,high,0.0,0.167,0.0,0.058,MISSING,None found
+EU-10.1,eu_ai_act,data_governance,Training data governance,critical,0.475,0.0,0.036,0.199,WEAK,"Training Data
+- 2.1M ED visit records from 15 hospitals (2018-2023)
+- Includes demographics, chief c"
+EU-10.2,eu_ai_act,data_governance,Data representativeness,high,0.26,0.0,0.012,0.107,WEAK,"Ethical Considerations
+- Potential for demographic bias in triage recommendations
+- Model should nev"
+EU-10.3,eu_ai_act,data_governance,Bias examination,high,0.4,0.333,0.014,0.28,WEAK,"Ethical Considerations
+- Potential for demographic bias in triage recommendations
+- Model should nev"
+EU-10.4,eu_ai_act,data_governance,Personal data processing,high,0.12,0.0,0.025,0.054,MISSING,None found
+EU-11.1,eu_ai_act,documentation,Technical documentation,critical,0.333,0.5,0.0,0.308,WEAK,# MedAssist Triage System - Model Card
+EU-11.2,eu_ai_act,documentation,System description,high,0.5,0.5,0.026,0.382,WEAK,"Model Details
+- **Developer:** HealthTech Solutions, v2.1
+- **Type:** Multi-class classifier for eme"
+EU-12.1,eu_ai_act,record_keeping,Automatic logging,high,0.26,0.167,0.0,0.162,WEAK,"Training Data
+- 2.1M ED visit records from 15 hospitals (2018-2023)
+- Includes demographics, chief c"
+EU-13.1,eu_ai_act,transparency,Transparency obligations,high,0.0,0.0,0.0,0.0,MISSING,None found
+EU-13.2,eu_ai_act,transparency,Instructions for use,high,0.25,0.167,0.033,0.167,WEAK,"Limitations
+- Trained primarily on English-language chief complaints
+- Performance not validated on "
+EU-13.3,eu_ai_act,transparency,Performance disclosure,medium,0.75,0.333,0.039,0.427,PARTIAL,"Evaluation
+- Overall accuracy: 89.3% on held-out test set
+- Sensitivity for critical cases (ESI 1-2)"
+EU-14.1,eu_ai_act,human_oversight,Human oversight design,critical,0.25,0.167,0.012,0.161,WEAK,"Ethical Considerations
+- Potential for demographic bias in triage recommendations
+- Model should nev"
+EU-14.2,eu_ai_act,human_oversight,Ability to override,high,0.25,0.25,0.033,0.196,WEAK,"Ethical Considerations
+- Potential for demographic bias in triage recommendations
+- Model should nev"
+EU-15.1,eu_ai_act,accuracy_robustness,Accuracy levels,high,0.4,0.5,0.049,0.347,WEAK,"Evaluation
+- Overall accuracy: 89.3% on held-out test set
+- Sensitivity for critical cases (ESI 1-2)"
+EU-15.2,eu_ai_act,accuracy_robustness,Robustness,high,0.12,0.167,0.0,0.106,WEAK,None found
+EU-15.3,eu_ai_act,accuracy_robustness,Cybersecurity,high,0.0,0.167,0.033,0.067,MISSING,None found
+EU-72.1,eu_ai_act,post_deployment,Post-market monitoring system,high,0.0,0.167,0.0,0.058,MISSING,None found
+EU-72.2,eu_ai_act,post_deployment,Incident reporting,high,0.0,0.0,0.0,0.0,MISSING,None found
+EU-50.1,eu_ai_act,ai_interaction_disclosure,AI interaction disclosure,medium,0.0,0.0,0.02,0.005,MISSING,None found
+EU-A4.1,eu_ai_act,documentation,Training methodology,high,0.4,0.5,0.047,0.347,WEAK,"Model Details
+- **Developer:** HealthTech Solutions, v2.1
+- **Type:** Multi-class classifier for eme"
+EU-A4.2,eu_ai_act,documentation,Validation and testing procedures,high,0.4,0.167,0.012,0.221,WEAK,"Evaluation
+- Overall accuracy: 89.3% on held-out test set
+- Sensitivity for critical cases (ESI 1-2)"
+NIST-GV.1,nist_rmf,govern,AI governance structure,high,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-GV.2,nist_rmf,govern,Accountability structure,high,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-GV.3,nist_rmf,govern,Workforce diversity,medium,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-GV.4,nist_rmf,govern,Organizational risk tolerance,high,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-GV.5,nist_rmf,govern,Third-party risk,medium,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-MP.1,nist_rmf,map,Context establishment,high,0.2,0.0,0.028,0.087,MISSING,"Intended Use
+Assists ED nurses in triaging incoming patients by analyzing symptom descriptions and v"
+NIST-MP.2,nist_rmf,map,Risk categorization,high,0.0,0.0,0.015,0.004,MISSING,None found
+NIST-MP.3,nist_rmf,map,Benefits and costs,medium,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-MP.4,nist_rmf,map,Impact on individuals,high,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-MS.1,nist_rmf,measure,Appropriate metrics,high,0.25,0.25,0.0,0.188,WEAK,"Evaluation
+- Overall accuracy: 89.3% on held-out test set
+- Sensitivity for critical cases (ESI 1-2)"
+NIST-MS.2,nist_rmf,measure,Fairness evaluation,high,0.26,0.5,0.0,0.279,WEAK,"Ethical Considerations
+- Potential for demographic bias in triage recommendations
+- Model should nev"
+NIST-MS.3,nist_rmf,measure,Explainability evaluation,medium,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-MS.4,nist_rmf,measure,Safety evaluation,high,0.0,0.25,0.017,0.092,MISSING,None found
+NIST-MS.5,nist_rmf,measure,Security and resilience,high,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-MG.1,nist_rmf,manage,Risk response,high,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-MG.2,nist_rmf,manage,Continuous monitoring,high,0.0,0.167,0.0,0.058,MISSING,None found
+NIST-MG.3,nist_rmf,manage,Incident response,medium,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-MG.4,nist_rmf,manage,Risk communication,medium,0.0,0.0,0.0,0.0,MISSING,None found
+BP-MC.1,best_practices,model_card,Model details,high,0.667,0.75,0.106,0.556,PARTIAL,"Model Details
+- **Developer:** HealthTech Solutions, v2.1
+- **Type:** Multi-class classifier for eme"
+BP-MC.2,best_practices,model_card,Intended use,high,0.5,0.25,0.069,0.305,WEAK,"Intended Use
+Assists ED nurses in triaging incoming patients by analyzing symptom descriptions and v"
+BP-MC.3,best_practices,model_card,Factors and metrics,high,0.2,0.25,0.015,0.171,WEAK,"Training Data
+- 2.1M ED visit records from 15 hospitals (2018-2023)
+- Includes demographics, chief c"
+BP-MC.4,best_practices,model_card,Evaluation results,high,0.6,0.167,0.0,0.298,WEAK,"Evaluation
+- Overall accuracy: 89.3% on held-out test set
+- Sensitivity for critical cases (ESI 1-2)"
+BP-MC.5,best_practices,model_card,Ethical considerations,medium,0.46,0.25,0.057,0.286,WEAK,"Ethical Considerations
+- Potential for demographic bias in triage recommendations
+- Model should nev"
+BP-MC.6,best_practices,model_card,Limitations and caveats,high,0.26,0.5,0.036,0.288,WEAK,"Limitations
+- Trained primarily on English-language chief complaints
+- Performance not validated on "
+BP-DS.1,best_practices,datasheet,Dataset motivation,high,0.0,0.0,0.043,0.011,MISSING,None found
+BP-DS.2,best_practices,datasheet,Dataset composition,high,0.06,0.25,0.016,0.115,WEAK,None found
+BP-DS.3,best_practices,datasheet,Collection process,medium,0.0,0.0,0.019,0.005,MISSING,None found
+BP-DS.4,best_practices,datasheet,Preprocessing and labeling,medium,0.0,0.0,0.022,0.005,MISSING,None found

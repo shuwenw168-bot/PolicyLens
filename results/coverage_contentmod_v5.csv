@@ -1,0 +1,51 @@
+requirement_id,framework,area,title,severity,keyword_score,evidence_score,semantic_score,coverage_score,coverage_level,best_matching_section
+EU-13.1,eu_ai_act,transparency,Transparency obligations,high,0.25,0.25,0.007,0.189,WEAK,"Transparency
+- Users are informed that content is subject to automated review
+- Appeal process avail"
+EU-13.3,eu_ai_act,transparency,Performance disclosure,medium,0.325,0.333,0.016,0.251,WEAK,"Limitations
+- Image and video content not covered (separate system)
+- Sarcasm and context-dependent "
+EU-50.1,eu_ai_act,ai_interaction_disclosure,AI interaction disclosure,medium,0.4,0.0,0.018,0.165,WEAK,"Transparency
+- Users are informed that content is subject to automated review
+- Appeal process avail"
+NIST-GV.1,nist_rmf,govern,AI governance structure,high,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-GV.2,nist_rmf,govern,Accountability structure,high,0.25,0.0,0.0,0.1,MISSING,"Human Oversight
+- All permanent account actions require human moderator approval
+- Automated actions"
+NIST-GV.3,nist_rmf,govern,Workforce diversity,medium,0.0,0.0,0.0,0.0,MISSING,None found
+NIST-MP.1,nist_rmf,map,Context establishment,high,0.4,0.167,0.047,0.23,WEAK,"Intended Use
+- Automated content moderation for user-generated text content
+- Flags content for huma"
+NIST-MP.2,nist_rmf,map,Risk categorization,high,0.5,0.25,0.009,0.29,WEAK,"Model Details
+- **Developer:** SocialPlatform Inc., v5.0.3
+- **Type:** Multi-label content moderatio"
+NIST-MS.1,nist_rmf,measure,Appropriate metrics,high,0.5,0.25,0.009,0.29,WEAK,"Evaluation
+- Macro F1: 0.88 across all categories
+- Hate speech F1: 0.91, Violence F1: 0.87, Harassm"
+NIST-MS.3,nist_rmf,measure,Explainability evaluation,medium,0.0,0.0,0.012,0.003,MISSING,None found
+NIST-MG.1,nist_rmf,manage,Risk response,high,0.433,0.25,0.0,0.261,WEAK,"Fairness
+- Regular audits for disparate impact across demographic groups
+- Dedicated fairness team r"
+NIST-MG.4,nist_rmf,manage,Risk communication,medium,0.0,0.25,0.0,0.087,MISSING,None found
+BP-MC.1,best_practices,model_card,Model details,high,0.833,0.75,0.055,0.61,PARTIAL,"Model Details
+- **Developer:** SocialPlatform Inc., v5.0.3
+- **Type:** Multi-label content moderatio"
+BP-MC.2,best_practices,model_card,Intended use,high,0.5,0.25,0.055,0.301,WEAK,"Intended Use
+- Automated content moderation for user-generated text content
+- Flags content for huma"
+BP-MC.3,best_practices,model_card,Factors and metrics,high,0.4,0.5,0.04,0.345,WEAK,"Fairness
+- Regular audits for disparate impact across demographic groups
+- Dedicated fairness team r"
+BP-MC.4,best_practices,model_card,Evaluation results,high,0.2,0.333,0.022,0.202,WEAK,"Evaluation
+- Macro F1: 0.88 across all categories
+- Hate speech F1: 0.91, Violence F1: 0.87, Harassm"
+BP-MC.5,best_practices,model_card,Ethical considerations,medium,0.34,0.5,0.0,0.311,WEAK,"Fairness
+- Regular audits for disparate impact across demographic groups
+- Dedicated fairness team r"
+BP-MC.6,best_practices,model_card,Limitations and caveats,high,0.4,0.5,0.022,0.34,WEAK,"Fairness
+- Regular audits for disparate impact across demographic groups
+- Dedicated fairness team r"
+BP-DS.4,best_practices,datasheet,Preprocessing and labeling,medium,0.25,0.5,0.057,0.289,WEAK,"Training Data
+- 5M labeled examples from human moderators
+- Active learning pipeline for edge cases
+"
