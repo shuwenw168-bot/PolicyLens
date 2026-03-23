@@ -1,0 +1,7 @@
+gap_mining:
+  threshold: 0.5
+
+output:
+  results_dir: "results"
+  figures_dir: "results/figures"
+  figure_dpi: 300

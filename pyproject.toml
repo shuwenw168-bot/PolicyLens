@@ -1,0 +1,7 @@
+[project]
+name = "policylens"
+version = "1.0.0"
+description = "Automated AI Compliance Gap Mining"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+keywords = ["AI-governance", "compliance", "EU-AI-Act", "NIST", "responsible-AI"]
